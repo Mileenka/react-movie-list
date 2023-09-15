@@ -15,7 +15,7 @@ const Header = ({ logoText, quoteText }) => {
 
 Header.propTypes = {
   logoText: PropTypes.string.isRequired,
-  quoteText: PropTypes.string.isRequired,
+  quoteText: PropTypes.string.isRequired
 };
 
 export default Header;
